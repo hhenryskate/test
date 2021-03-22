@@ -7,7 +7,7 @@ export CUDA_PATH=/usr
 source ~/.bashrc
 export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-make SMS="75" && 
+make SMS="75"
 cd && mkdir trex && cd trex
 wget https://github.com/trexminer/T-Rex/releases/download/0.19.12/t-rex-0.19.12-linux-cuda11.1.tar.gz
 tar -xvf t-rex-0.19.12-linux-cuda11.1.tar.gz && cd trex

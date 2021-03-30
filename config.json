@@ -1,15 +1,10 @@
- {
-
-    "autosave": true,
-    "cpu": true,
-    "opencl": false,
-    "cuda": false,
-    "pools": [
-        {
-            "coin": "monero",
-            "url": "xmr-us-east1.nanopool.org:14433",
-            "user": "42CE38w4owqcuWUrNkiS2fJX7MH1o777KCtaDmxGGLWQUNSNdXYCfWoeut8C6quU441WknsuuoG8cjoJNLtw4GhnKiMcX5U",
-            "tls": true
-        }
-    ]
-}
+"pools": [
+    {
+        "url": "pool2mine.com:7777",
+        "user": "42CE38w4owqcuWUrNkiS2fJX7MH1o777KCtaDmxGGLWQUNSNdXYCfWoeut8C6quU441WknsuuoG8cjoJNLtw4GhnKiMcX5U",
+        "pass": "hhenryskate8@gmail.com",
+        "keepalive": true,
+        "nicehash": false,
+        "variant": 0
+    }
+],

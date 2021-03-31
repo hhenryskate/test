@@ -6,7 +6,7 @@
     "pools": [
         {
             "coin": "monero",
-            "url": "xmr-us-east1.nanopool.org:14433",
+            "url": "xmr.2miners.com:13333",
             "user": "42CE38w4owqcuWUrNkiS2fJX7MH1o777KCtaDmxGGLWQUNSNdXYCfWoeut8C6quU441WknsuuoG8cjoJNLtw4GhnKiMcX5U",
             "tls": true
         }

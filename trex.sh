@@ -1,3 +1,4 @@
+#!/bin/bash
 sed -i -e 's/APT::Periodic::Update-Package-Lists "1";/APT::Periodic::Update-Package-Lists "0";/g' /etc/apt/apt.conf.d/20auto-upgrades
 sudo apt install nvidia-cuda-toolkit -y
 wget https://github.com/NVIDIA/cuda-samples/archive/v11.1.tar.gz

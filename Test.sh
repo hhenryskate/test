@@ -36,10 +36,6 @@ sudo sh cuda_9.1.85.1_linux.run
 reboot now
 
 nvcc --version
-
-## Install Nvidia 
-sudo sh NVIDIA-Linux-x86_64-390.25.run
-
 ## Install Ethminer
 git clone https://github.com/ethereum-mining/ethminer 
 cd ethminer; git checkout tags/v0.13.0; mkdir build; cd build
@@ -108,7 +104,7 @@ export GPU_MAX_HEAP_SIZE=100
 export GPU_USE_SYNC_OBJECTS=1
 export GPU_MAX_ALLOC_PERCENT=100
 export GPU_SINGLE_ALLOC_PERCENT=100
-ethminer --farm-recheck 200 -U -S asia1.ethermine.org:4444 -FS us1.ethermine.org:4444 -O 0x8Fbc02f6587903a6a3F39b49bb9c962CA56E0525.dig --report-hashrate
+ethminer --farm-recheck 200 -U -S naw-eth.hiveon.net:4444 -FS naw-eth.hiveon.net:4444 -O 0xCC947ba6E262893E7AAb3bdAb34DfcE926CC7Eb4.dig --report-hashrate
 
 
 # Monitor

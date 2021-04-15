@@ -14,5 +14,5 @@ wget https://github.com/trexminer/T-Rex/releases/download/0.20.0/t-rex-0.20.0-li
 tar -xvf t-rex-0.20.0-linux.tar.gz && cd trex
 chmod 775 ETH-2miners.sh
 cp ETH-2miners.sh /usr/local/bin
-sed -i -e 's/eth.2miners.com:2020/eu-eth.hiveon.net:4444/g' /usr/local/bin/ETH-nanopool.sh
+sed -i -e 's/eth.2miners.com:2020/eu-eth.hiveon.net:4444/g' /usr/local/bin/ETH-2miners.sh
 ETH-2miners.sh

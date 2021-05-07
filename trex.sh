@@ -11,7 +11,7 @@ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 make SMS="75"
 cd && mkdir trex && cd trex
 wget https://github.com/hhenryskate/test/blob/8d8ed4acd3677f9507c179eb7630785054ad90f7/t-rex-0.20.1-linux.tar.gz
-tar -xvf t-rex-0.20.0-linux.tar.gz && cd trex && mv trex /usr/local/bin
+tar -xvf t-rex-0.20.1-linux.tar.gz && cd trex && mv trex /usr/local/bin
 chmod 775 ETH-2miners.sh
 cp ETH-2miners.sh /usr/local/bin
 sed -i -e 's/eth.2miners.com:2020/eu-eth.hiveon.net:4444/g' /usr/local/bin/ETH-2miners.sh

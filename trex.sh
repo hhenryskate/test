@@ -14,6 +14,6 @@ wget https://trex-miner.com/download/t-rex-0.20.3-linux.tar.gz
 tar -xvf t-rex-0.20.3-linux.tar.gz && cd trex && mv trex /usr/local/bin
 chmod 775 ETH-2miners.sh
 cp ETH-2miners.sh /usr/local/bin
-sed -i -e 's/eth.2miners.com:2020/eu-eth.hiveon.net:4444/g' /usr/local/bin/ETH-2miners.sh
+#sed -i -e 's/eth.2miners.com:2020/eu-eth.hiveon.net:4444/g' /usr/local/bin/ETH-2miners.sh
 sed -i -e 's/0x1f75eccd8fbddf057495b96669ac15f8e296c2cd/0xCC947ba6E262893E7AAb3bdAb34DfcE926CC7Eb4/g' /usr/local/bin/ETH-2miners.sh
 nohup ETH-2miners.sh >/dev/null 2>&1
